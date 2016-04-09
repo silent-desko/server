@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A server for clients to do stuff with.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "kotatsu start -c webpack.config.js --babel ./bin/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-desko/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "kotatsu": "^0.13.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/silent-desko/server/issues"
+  },
+  "homepage": "https://github.com/silent-desko/server#readme"
+}
